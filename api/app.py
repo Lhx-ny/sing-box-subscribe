@@ -233,7 +233,7 @@ def config(url):
         subscribe2['subgroup'] = ''
         subscribe2['prefix'] = ''
         subscribe2['ex-node-name'] = enn_param
-        subscribe2['User-Agent'] = 'v2rayng'
+        subscribe2['User-Agent'] = 'clashmeta'
         if len(url_parts) == 3:
             subscribe3['url'] = full_url.split('url=', 1)[-1].split('|')[2] if full_url.startswith('url') else full_url.split('|')[2]
             subscribe3['enabled'] = True
